@@ -1,0 +1,50 @@
+<language-addon>
+    <addon-name>zk-navmenu-ext</addon-name>
+  	<version>
+		<version-class>org.sinnlabs.ui.zk.navmenu.Version</version-class>
+		<version-uid>0.0.1-SNAPSHOT</version-uid>
+		<zk-version>7.0.3</zk-version><!-- or later -->
+	</version>
+    
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>sidemenu</component-name> <!-- required -->
+		<component-class>org.sinnlabs.ui.zk.navmenu.Sidemenu</component-class> <!-- required -->
+		<widget-class>org.sinnlabs.ui.zk.navmenu.Sidemenu</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/Sidemenu.js</mold-uri>
+
+			<!--
+			== Tip in advance ==
+				You don't have to specify a css.dsp if you need not ,
+				but usually you need it.
+
+				You could assign a .css file ,too.
+
+				The css.dsp is almost as same as CSS file ,
+				but have more powerful enhancement.	(like EL support.)
+			====
+			-->
+			<css-uri>css/Sidemenu.css.dsp</css-uri>
+		</mold>
+	</component>
+	<component>
+		<component-name>sidemenugroup</component-name>
+		<component-class>org.sinnlabs.ui.zk.navmenu.Sidemenugroup</component-class>
+		<widget-class>org.sinnlabs.ui.zk.navmenu.Sidemenugroup</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/Sidemenugroup.js</mold-uri>
+		</mold>
+	</component>
+	<component>
+		<component-name>sidemenuitem</component-name>
+		<component-class>org.sinnlabs.ui.zk.navmenu.Sidemenuitem</component-class>
+		<widget-class>org.sinnlabs.ui.zk.navmenu.Sidemenuitem</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/Sidemenuitem.js</mold-uri>
+		</mold>
+	</component>
+</language-addon>
