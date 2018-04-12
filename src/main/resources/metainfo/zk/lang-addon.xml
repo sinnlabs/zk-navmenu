@@ -2,7 +2,7 @@
     <addon-name>zk-navmenu-ext</addon-name>
   	<version>
 		<version-class>org.sinnlabs.ui.zk.navmenu.Version</version-class>
-		<version-uid>0.0.1-SNAPSHOT</version-uid>
+		<version-uid>0.0.3-SNAPSHOT</version-uid>
 		<zk-version>7.0.3</zk-version><!-- or later -->
 	</version>
     

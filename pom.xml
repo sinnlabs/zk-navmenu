@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.sinnlabs.ui.zk</groupId>
 	<artifactId>zk-navmenu</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<properties>
 		<zk.version>7.0.3</zk.version>
 		<commons-io>2.4</commons-io>
@@ -197,7 +197,7 @@
 						</configuration>
 					</execution>
 					<!-- Build bin.zip -->
-					<execution>
+					<!-- <execution>
 						<id>bin</id>
 						<phase>package</phase>
 						<goals>
@@ -210,9 +210,9 @@
 								<descriptor>src/main/assembly/bin.xml</descriptor>
 							</descriptors>
 						</configuration>
-					</execution>
+					</execution> -->
 					<!-- Build src.zip -->
-					<execution>
+					<!-- <execution>
 						<id>src</id>
 						<phase>package</phase>
 						<goals>
@@ -225,7 +225,7 @@
 								<descriptor>src/main/assembly/src.xml</descriptor>
 							</descriptors>
 						</configuration>
-					</execution>
+					</execution> -->
 					<!-- Build bundle.jar -->
 					<execution>
 						<id>bundle</id>
