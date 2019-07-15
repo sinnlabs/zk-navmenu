@@ -30,14 +30,14 @@ function (out) {
 			linkAttrs += ' target="' + target + '"';
 		}
 	}
-	out.push('<li ', this.domAttrs_({domClass_:1}), ' class="', cls, '" >');
 	out.push('<a id="', uuid, '-link" ', linkAttrs, ' >');
+	out.push('<li ', this.domAttrs_({domClass_:1}), ' class="', cls, '" >');
 	if (icon) {
 		out.push('<span id="' + uuid + '-icon" class="', icon, '" ></span>');
 	}
 	out.push('<span id="' + uuid +'-cave" >');
 	out.push(zUtl.encodeXML(label));
 	out.push('</span>');
-	out.push('</a>');
 	out.push('</li>');
+	out.push('</a>');
 }
