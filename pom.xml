@@ -22,7 +22,7 @@
 	</licenses>
 	<scm>
 		<url>https://github.com/sinnlabs/zk-navmenu</url>
-		<connection>scm:git:git://github.com/sinnlabs/zk-navmenu/</connection>
+		<connection>scm:git:https://github.com/sinnlabs/zk-navmenu.git</connection>
 	  <tag>zk-navmenu-0.0.3</tag>
   </scm>
 	<distributionManagement>
