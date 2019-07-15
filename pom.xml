@@ -3,13 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.sinnlabs.ui.zk</groupId>
 	<artifactId>zk-navmenu</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<properties>
 		<zk.version>7.0.3</zk.version>
 		<commons-io>2.4</commons-io>
 		<!-- <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
 		<packname>-${project.version}-FL-${maven.build.timestamp}</packname>  -->
 	</properties>
+	<url>https://github.com/sinnlabs/zk-navmenu</url>
 	<packaging>jar</packaging>
 	<name>The navmenu for zk library</name>
 	<description>The navmenu for zk library</description>
@@ -20,6 +21,18 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<developers>
+		<developer>
+			<id>owner</id>
+			<name>Peter Liverovsky</name>
+			<email>nsa-azon@yandex.ru</email>
+			<timezone>UTC+3</timezone>
+		</developer>
+	</developers>
+	<organization>
+		<name>SinnLabs</name>
+		<url>https://github.com/sinnlabs</url>
+	</organization>
 	<scm>
 		<url>https://github.com/sinnlabs/zk-navmenu</url>
 		<connection>scm:git:https://github.com/sinnlabs/zk-navmenu/</connection>
