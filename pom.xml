@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.sinnlabs.ui.zk</groupId>
 	<artifactId>zk-navmenu</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<properties>
 		<zk.version>7.0.3</zk.version>
 		<commons-io>2.4</commons-io>
